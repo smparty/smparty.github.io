@@ -1,95 +1,115 @@
-
-<!DOCTYPE html>
 <html>
-  <head>
-    
-<meta charset="utf-8" >
 
-<title>Windows 操作系统微软官方镜像 | 王超博客</title>
-<meta name="description" content="温故而知新">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://chaoblog.github.io/favicon.ico?v=1594094705952">
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Windows 操作系统微软官方镜像 | 王超博客
+</title>
+<link rel="shortcut icon" href="https://chaoblog.github.io/favicon.ico?v=1594095706466">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://chaoblog.github.io/styles/main.css">
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://chaoblog.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+        
+</head>
 
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://chaoblog.github.io">
-        <img class="avatar" src="https://chaoblog.github.io/images/avatar.png?v=1594094705952" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://chaoblog.github.io">
-        <h1 class="site-title">王超博客</h1>
-      </a>
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://chaoblog.github.io">
+                <img class="avatar" src="https://chaoblog.github.io/images/avatar.png?v=1594095706466" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    王超博客
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://support.qq.com/products/148356?" class="menu">
+                                    留言板
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
 </div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://support.qq.com/products/148356?" class="menu purple-link">
-            留言板
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://chaoblog.github.io/post-images/windows-cao-zuo-xi-tong-wei-ruan-guan-fang-jing-xiang.png')">
-            </div>
-          
-          <h2 class="post-title">Windows 操作系统微软官方镜像</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-07-05</span>
-            
-          </div>
-          <div class="post-content">
-            <p>windows官方系统镜像，复制ED2K、BT链接后使用迅雷下载。<br>
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            Windows 操作系统微软官方镜像
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2020-07-05</time>
+                            
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://chaoblog.github.io/post-images/windows-cao-zuo-xi-tong-wei-ruan-guan-fang-jing-xiang.png')"></div>
+                            
+                                <div class="post-content">
+                                    <p>windows官方系统镜像，复制ED2K、BT链接后使用迅雷下载。<br>
 <img src="https://chaoblog.github.io/post-images/1593916749975.png" alt="" loading="lazy"><br>
 Windows 10, Version 1909 简体中文消费者版64位<br>
 ed2k://|file|cn_windows_10_consumer_editions_version_1909_x64_dvd_76365bf8.iso|5381154816|6A56DE112B164EC054D1104C53F8F10B|/</p>
@@ -113,57 +133,80 @@ Windows XP SP3 简体中文专业版<br>
 ed2k://|file|zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso|630237184|EC51916C9D9B8B931195EE0D6EE9B40E|/</p>
 <p>数据均来自于互联网搜集，如有侵犯您的权利，请联系删除。</p>
 
-          </div>
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://chaoblog.github.io/post/he-bei-dui-kou-gao-kao-ji-suan-ji-mo-ni-lian-xi-xi-tong/">
+                                <h3 class="post-title">
+                                    河北对口高考计算机模拟练习系统
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://chaoblog.github.io/images/avatar.png?v=1594095706466)">
         </div>
+        <h1 class="id_card-title">
+            王超博客
+        </h1>
+        <h2 class="id_card-description">
+            温故而知新
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
 
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://chaoblog.github.io/post/he-bei-dui-kou-gao-kao-ji-suan-ji-mo-ni-lian-xi-xi-tong/">
-              <h3 class="post-title">
-                下一篇：河北对口高考计算机模拟练习系统
-              </h3>
-            </a>
-          </div>
-          
-      </div>
+        </div>
+    </div>
+    
+                                    
 
-      
+                </div>
 
-      <div class="site-footer">
-  <div class="slogan">温故而知新</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by WangChao | <a class="rss" href="https://chaoblog.github.io/atom.xml" target="_blank">RSS</a>
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  Powered by WangChao | 
+  <a class="rss" href="https://chaoblog.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
 
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
 
-
-  </body>
 </html>
