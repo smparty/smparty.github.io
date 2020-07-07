@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 
 <head>
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
 <title>王超博客</title>
 <meta name="description" content="温故而知新">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -17,11 +17,15 @@
 <script>
     hljs.initHighlightingOnLoad();
 </script>
+    <script src="/media/search/fuse.js"></script>
+    <script src="/media/search/ejs.min.js"></script>
+    <script src="/media/search/gridea-search.js"></script>
+    <script src="/media/search/result.ejs" type="text/ejs"></script>
 </head>
 
 <body>
-	<div class="layout theme-dark">
-		<div class="layout-header">
+    <div class="layout theme-dark">
+        <div class="layout-header">
 
 	<div class="layout-header-main">
 		<div class="container">
@@ -101,7 +105,7 @@
 	</div>
 
 </div>
-		<div class="layout-collapse d-md-none">
+        <div class="layout-collapse d-md-none">
 	<div class="layout-collapse-main">
 		<ul class="layout-collapse-list">
 			
@@ -118,101 +122,39 @@
 	</div>
 </div>
 
-		<div class="layout-content">
-			<div class="layout-content-main">
-				<div class="container">
-					<div class="row justify-content-lg-center">
-						<div class="col-12 col-lg-9">
-							<div class="layout-archive">
-								
-								
+        <div class="layout-content">
+            <div class="layout-content-main">
+                <div class="container">
+                    <div class="row justify-content-lg-center">
+                        <div class="col-12 col-lg-9">
+                            <div id="gridea-search-result" class="layout-archive">
 
-								<div class="card">
-									<div class="card-header">
-										<div class="header-content">
-											<div class="title">2020</div>
-										</div>
+                                <div class="card searching">
+                                    <div class="card-header">
+                                        <div class="header-content">
+                                            <div class="title">搜索中......</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-									</div>
-									<div class="card-body">
-										
-										
-										<div class="card-item">
-											<div class="thumb">
-												
-												<a href="https://chaoblog.github.io/post/windows-cao-zuo-xi-tong-wei-ruan-guan-fang-jing-xiang/" style="background-image: url('https://chaoblog.github.io/post-images/windows-cao-zuo-xi-tong-wei-ruan-guan-fang-jing-xiang.png')"></a>
-												
-											</div>
-											<div class="list-content">
-												<div class="list-body">
-													<a class="title" href="https://chaoblog.github.io/post/windows-cao-zuo-xi-tong-wei-ruan-guan-fang-jing-xiang/">Windows 操作系统微软官方镜像</a>
-													<div class="time">2020-07-05</div>
-												</div>
-											</div>
-										</div>
-										
-										
-										
-										
-									</div>
-								</div>
-								
+                                <div class="card no-result" style="display:none">
+                                    <div class="card-header">
+                                        <div class="header-content">
+                                            <div class="title">未搜索到相关文章</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-								<div class="card">
-									<div class="card-header">
-										<div class="header-content">
-											<div class="title">2019</div>
-										</div>
+                            </div>
 
-									</div>
-									<div class="card-body">
-										
-										
-										
-										
-										<div class="card-item">
-											<div class="thumb">
-												
-												<a href="https://chaoblog.github.io/post/he-bei-dui-kou-gao-kao-ji-suan-ji-mo-ni-lian-xi-xi-tong/" style="background-image: url('https://chaoblog.github.io/post-images/he-bei-dui-kou-gao-kao-ji-suan-ji-mo-ni-lian-xi-xi-tong.png')"></a>
-												
-											</div>
-											<div class="list-content">
-												<div class="list-body">
-													<a class="title" href="https://chaoblog.github.io/post/he-bei-dui-kou-gao-kao-ji-suan-ji-mo-ni-lian-xi-xi-tong/">河北对口高考计算机模拟练习系统</a>
-													<div class="time">2019-12-30</div>
-												</div>
-											</div>
-										</div>
-										
-										
-									</div>
-								</div>
-								
-							</div>
+                        </div>
+                    </div>
 
-							<div class="layout-paginator">
-								<div class="paginator row">
-									<div class="col-6">
-										
-										<a class="btn disabled btn-paginator width-100">上一页</a>
-										
-									</div>
-									<div class="col-6">
-										
-										<a class="btn disabled btn-paginator width-100">下一页</a>
-										
-									</div>
-								</div>
-							</div>
+                </div>
+            </div>
+        </div>
 
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-			<div class="layout-footer">
+        	<div class="layout-footer">
 
 		<div class="container">
 			<div class="row justify-content-lg-center">
@@ -260,7 +202,7 @@
 
 	<script type="text/javascript" src='https://chaoblog.github.io/media/scripts/main.js'></script>
 	
-	</div>
+    </div>
 </body>
 
 </html>
