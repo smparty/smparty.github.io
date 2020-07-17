@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://netfhx.github.io</id>
     <title>NETFHX</title>
-    <updated>2020-07-14T08:55:43.730Z</updated>
+    <updated>2020-07-17T04:15:19.326Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://netfhx.github.io"/>
     <link rel="self" href="https://netfhx.github.io/atom.xml"/>
@@ -11,16 +11,26 @@
     <icon>https://netfhx.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NETFHX</rights>
     <entry>
-        <title type="html"><![CDATA[2020届毕业生留言贴]]></title>
+        <title type="html"><![CDATA[网页在线工具汇总]]></title>
         <id>https://netfhx.github.io/post/2020-jie-bi-ye-sheng-liu-yan-tie/</id>
         <link href="https://netfhx.github.io/post/2020-jie-bi-ye-sheng-liu-yan-tie/">
         </link>
         <updated>2020-07-08T03:51:40.000Z</updated>
-        <content type="html"><![CDATA[<p>留言讨论区</p>
+        <content type="html"><![CDATA[<p>在线影视<br>
+<a href="http://www.y80s.com/">80s电影网站</a></p>
+<p>在线音乐<br>
+<a href="https://music.qugeek.com/app/player">墨灵音乐</a></p>
+<p>在线软件搜索<br>
+<a href="http://a-1.vip/exe/">无名搜索</a></p>
+<p><a href="https://ps.gaoding.com/#/">在线PS</a></p>
+<p><a href="https://web.baimiaoapp.com/">在线图片文字提取</a></p>
+<p><a href="https://shimo.im/">在线文档办公</a></p>
+<p><a href="http://berrl.com/">在线BT搜索</a></p>
+<p>数据均来自于互联网搜集，如有侵犯您的权利，请联系删除。</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[windows 常用最佳软件推荐]]></title>
+        <title type="html"><![CDATA[Windows 常用最佳软件推荐]]></title>
         <id>https://netfhx.github.io/post/windows-chang-yong-zui-jia-ruan-jian-tui-jian/</id>
         <link href="https://netfhx.github.io/post/windows-chang-yong-zui-jia-ruan-jian-tui-jian/">
         </link>
@@ -84,6 +94,7 @@ FlashFxp – 老牌 FTP/FXP 传输必备软件，功能强大最常用的 FTP，
 微软常用运行库合集VisualCppRedist<br>
 例子比如 QQ、一些大型游戏等提示需要安装 vc 运行库，这个合集提供了所有版本的运行库，直接安装即可解决问题。</p>
 <p><a href="https://wwa.lanzous.com/b0beb5oof">点击进入下载地址</a></p>
+<p>数据均来自于互联网搜集，如有侵犯您的权利，请联系删除。</p>
 ]]></content>
     </entry>
     <entry>
@@ -118,16 +129,21 @@ ed2k://|file|zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-7
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[文字录入、windows、Office考试系统]]></title>
+        <title type="html"><![CDATA[Office办公、文字录入考试系统]]></title>
         <id>https://netfhx.github.io/post/he-bei-dui-kou-gao-kao-ji-suan-ji-mo-ni-lian-xi-xi-tong/</id>
         <link href="https://netfhx.github.io/post/he-bei-dui-kou-gao-kao-ji-suan-ji-mo-ni-lian-xi-xi-tong/">
         </link>
         <updated>2019-12-30T03:15:16.000Z</updated>
-        <content type="html"><![CDATA[<p>河北对口高考计算机模拟练习系统，2020新版本共十套题。</p>
-<p>专业技能测试包括文字录入、Windows、Word、Excel、PowerPoint共五部分。</p>
-<p>考生在系统答题界面必须首先选择文字录入（中、英文不限），文字录入结束后，方可选择其它部分，按照题目要求答题。</p>
-<p>阿珊打字通比赛.exe9.5 M  金山打字通.rar37.9 M  模拟考试客户端.rar90.6 M  Microsoft Office Professional Plus 2010 V3.rar...</p>
+        <content type="html"><![CDATA[<p>模拟考试客户端<br>
+河北对口高考计算机模拟练习系统，2020新版本共十套题。包括文字录入、Windows、Word、Excel、PowerPoint共五部分。</p>
+<p>文字录入练习工具<br>
+阿珊打字通、金山打字通</p>
+<p>信息化办公工具<br>
+Microsoft Office 2010</p>
+<p>计算机专业考试复习材料<br>
+计算机文化基础知识点、计算机基础复习素材、补充知识点等</p>
 <p><a href="https://www.lanzous.com/b0be8w5sj/">点击进入下载地址</a></p>
+<p>数据均来自于互联网搜集，如有侵犯您的权利，请联系删除。</p>
 ]]></content>
     </entry>
 </feed>
